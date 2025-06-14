@@ -1,4 +1,3 @@
-""" Basic Agent Evaluation Runner"""
 import os
 import inspect
 import gradio as gr
