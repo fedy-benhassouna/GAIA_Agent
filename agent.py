@@ -1,4 +1,3 @@
-"""LangGraph Agent"""
 import os
 from dotenv import load_dotenv
 from langgraph.graph import START, StateGraph, MessagesState
