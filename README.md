@@ -107,8 +107,8 @@ To set up and run this project, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone https://github.com/fedy-benhassouna/GAIA_Agent.git
+    cd GAIA_Agent
     ```
 
 2.  **Create a virtual environment (recommended):**
