@@ -1,4 +1,4 @@
-# Hugging Face Agent Course Project Documentation
+
 
 This document provides comprehensive documentation for the Hugging Face Agent Course final project. It includes an overview of the project, its architecture, the agent's workflow, and instructions for setting up and running the project.
 
@@ -30,9 +30,7 @@ The provided codebase serves as a basic template, which participants are encoura
 
 ## 2. System Architecture
 
-The system architecture of this Hugging Face Agent project is designed to facilitate the interaction between a user interface, the core agent logic, external APIs, and various tools and data stores. The main components and their interactions are illustrated in the diagram below:
-
-![System Architecture Diagram](https://private-us-east-1.manuscdn.com/sessionFile/s88c4dWaj7dcjsEeoL3hfl/sandbox/urUlDeSoqVQLzZXmeVt9t2-images_1749918493084_na1fn_L2hvbWUvdWJ1bnR1L3N5c3RlbV9hcmNoaXRlY3R1cmU.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvczg4YzRkV2FqN2RjanNFZW9MM2hmbC9zYW5kYm94L3VyVWxEZVNvcVZRTHpaWG1lVnQ5dDItaW1hZ2VzXzE3NDk5MTg0OTMwODRfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwzTjVjM1JsYlY5aGNtTm9hWFJsWTNSMWNtVS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjcyMjU2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=dINa06Wn1VFeUBWV7voMS7dUk-6u1xGj5fbWTl0lizn4vjIku5qARZqBReyl57PtL3bu9PXPSzfws0chaGnb0bdTu7mNoX4p8FaH7-vEiLB-wJ0bRt6LBJ52fjlhElSpTsSZHS5qPw0IBA946ocT2hjgt-uI13l4DODyonj75HLLB4ka-DYCVzB~3-T61fM385deA1R~NhxvtTYG7Lh0Nk~I~yqzd0n7E1vgrsi3~nINbD9~5mhIyAxttmaCdftAeNbTsbdmEOc-W~aD6-Tq6pU8mXTfh7w-oFdEGYJTslYfq4Xqz3DuGuTtSvUi10dynNa-LCHgTiQhHcFjiHnADw__)
+The system architecture of this Hugging Face Agent project is designed to facilitate the interaction between a user interface, the core agent logic, external APIs, and various tools and data stores. The main components and their interactions are illustrated in the Components below:
 
 **Components:**
 
@@ -69,7 +67,9 @@ The system architecture of this Hugging Face Agent project is designed to facili
 
 The agent's workflow describes the sequence of operations performed by the LangGraph Agent to process a question and arrive at an answer. The workflow is designed to be dynamic, allowing the agent to choose the most appropriate tools or knowledge sources based on the input question. The general workflow is depicted below:
 
-![Agent Workflow Diagram](https://private-us-east-1.manuscdn.com/sessionFile/s88c4dWaj7dcjsEeoL3hfl/sandbox/urUlDeSoqVQLzZXmeVt9t2-images_1749918493085_na1fn_L2hvbWUvdWJ1bnR1L2FnZW50X3dvcmtmbG93.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvczg4YzRkV2FqN2RjanNFZW9MM2hmbC9zYW5kYm94L3VyVWxEZVNvcVZRTHpaWG1lVnQ5dDItaW1hZ2VzXzE3NDk5MTg0OTMwODVfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwyRm5aVzUwWDNkdmNtdG1iRzkzLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NzIyNTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=d0NsNDe-i5R0Lfg18GC2INDcMrlRe8j96LXpcJsFkHc0kV9nLApjRj3XtSSuagYHagc7furGMqCDcXK9oCsonxyS59EzEphi2mX0n3ztGkpPh1Wp7EPba8V3J7yuCEDAcFoDNeGq88txrlzqKqGpT~bLGmgP8IzYBvDOfcmHqnR6GQyUiaAuA7pUolbt4PMATi9Hz-gMBo5vycHB3H7ngjjTi46U7x-rW3Grd3ojRZWspJUDHQCnQ6yAClSMIrziZbeT50hGETOhTyB9mfrOZW7hq1ApFOSvFz-nMVQNQVPQo-d1VifjeZbaFCp20pi7yY9fMc~X4YiU58oe1yQrrw__)
+
+![Agent Workflow Diagram](https://github.com/user-attachments/assets/886e1584-85a5-4e91-9815-7ce911accf75)
+
 
 **Workflow Steps:**
 
